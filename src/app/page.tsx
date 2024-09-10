@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+export const basePath = "/next-test-app/"; 
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -17,7 +19,7 @@ export default function Home() {
           <li>
             Get started by editing <code>src/app/page.tsx</code>.
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your changes instantly. Nuh uh</li>
         </ol>
 
         <div className={styles.ctas}>
@@ -45,6 +47,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <img src={basePath + "ele.png"} alt="" width={100} height={100} />
       </main>
       <footer className={styles.footer}>
         <a
