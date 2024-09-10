@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { basePath } from "./meta";
 
-export const basePath = "/next-test-app/"; 
 
 export default function Home() {
   return (
